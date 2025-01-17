@@ -31,8 +31,19 @@ a {
   font-size: 1.5rem;
 }
 
+#subsubhead {
+  font-size: 0.9rem;
+  padding-left: 1rem;
+}
+
 #header4 {
   font-size: 1.5rem;
+}
+
+#hobby {
+  list-style: disc;
+  padding-left: 1rem;
+  font-size: 0.9rem;
 }
 
 /* CONTACT FORM  */
