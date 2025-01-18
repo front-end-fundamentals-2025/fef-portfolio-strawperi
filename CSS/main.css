@@ -64,11 +64,24 @@ a {
 form {
   margin-bottom: 2rem;
 }
-/* FOOTER */
 
-.inquirytext {
+#nametext input {
+  background-color: white;
+}
+
+#inquirytext {
   margin-bottom: 4rem;
 }
+
+#inquirytext input {
+  min-height: 150px;
+  min-width: 350px;
+  box-sizing: border-box;
+  padding-bottom: 150px;
+  background-color: white;
+}
+
+/* FOOTER */
 
 footer {
   margin-top: 4rem;
