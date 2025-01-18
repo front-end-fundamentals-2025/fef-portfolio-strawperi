@@ -1,5 +1,6 @@
 * {
   font-family: "Montserrat", serif;
+  background-color: blanchedalmond;
 }
 
 /* HEADER */
@@ -38,12 +39,18 @@ a {
 
 #header4 {
   font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
-#hobby {
+.bullet {
   list-style: disc;
   padding-left: 1rem;
   font-size: 0.9rem;
+}
+
+#header5 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
 /* CONTACT FORM  */
