@@ -107,6 +107,10 @@ form {
   background-color: white;
 }
 
+#send-text {
+  margin-left: 0rem;
+}
+
 /* MY WORKS */
 
 #project-header {
@@ -144,6 +148,16 @@ figure figcaption {
     grid-template-columns: 1fr;
     place-items: center;
   }
+}
+
+/* MAGAZINE PAGE */
+.magazine-photo {
+  width: 90%;
+}
+
+/* INDESIGN PAGE */
+.indesign-photo {
+  width: 80%;
 }
 
 /* FOOTER */
