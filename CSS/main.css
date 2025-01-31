@@ -5,6 +5,11 @@
 
 /* HEADER */
 
+header {
+  display: flex;
+  align-items: center;
+}
+
 #logo {
   font-weight: 800;
   font-size: 1.8rem;
@@ -14,8 +19,13 @@
 }
 
 ul {
+  display: flex;
   list-style: none;
   padding-left: 0px;
+}
+
+li {
+  margin-left: 3rem;
 }
 
 a {
@@ -82,6 +92,35 @@ form {
 }
 
 /* MY WORKS */
+
+#project-header {
+  text-align: center;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+figure figcaption {
+  text-align: center;
+  margin-left: -50px;
+  margin-top: 10px;
+}
+
+.works-image1 {
+  width: 90%;
+}
+
+.works-image2 {
+  width: 80%;
+}
+
+.works-figure {
+  display: inline-block;
+  margin: 20px;
+}
 
 /* FOOTER */
 
