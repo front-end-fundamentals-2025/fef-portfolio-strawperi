@@ -129,12 +129,43 @@ figure figcaption {
   margin-top: 10px;
 }
 
-.works-image1 {
+#magazine-box {
   width: 90%;
+  animation-name: popout;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
 }
 
-.works-image2 {
+#flyer-box {
+  width: 90%;
+  animation-name: popout;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.25s;
+}
+
+#illustrator-box {
   width: 80%;
+  animation-name: popout;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+
+#photoshop-box {
+  width: 80%;
+  animation-name: popout;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.75s;
+}
+
+#indesign-box {
+  width: 80%;
+  animation-name: popout;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
 }
 
 .works-figure {
@@ -147,6 +178,28 @@ figure figcaption {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+  }
+}
+
+@keyframes popout {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.85;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  40% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }
 
