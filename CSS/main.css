@@ -207,6 +207,53 @@ figure figcaption {
   }
 }
 
+/* ILLUSTRATOR PAGE */
+
+#yellow-1 {
+  width: 300px;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+}
+
+#yellow-2 {
+  width: 210px;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+#yellow-3 {
+  width: 300px;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 4s;
+  animation-fill-mode: backwards;
+}
+
+#yellow-4 {
+  width: 210px;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 6s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 /* MAGAZINE PAGE */
 .magazine-photo {
   width: 90%;
