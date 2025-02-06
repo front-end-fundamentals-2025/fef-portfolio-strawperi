@@ -142,6 +142,7 @@ figure figcaption {
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
   animation-delay: 0.25s;
+  animation-fill-mode: backwards;
 }
 
 #illustrator-box {
@@ -150,6 +151,7 @@ figure figcaption {
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
   animation-delay: 0.5s;
+  animation-fill-mode: backwards;
 }
 
 #photoshop-box {
@@ -158,6 +160,7 @@ figure figcaption {
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
   animation-delay: 0.75s;
+  animation-fill-mode: backwards;
 }
 
 #indesign-box {
@@ -166,6 +169,7 @@ figure figcaption {
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
 
 .works-figure {
