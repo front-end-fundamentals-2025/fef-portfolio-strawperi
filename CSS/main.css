@@ -209,6 +209,10 @@ figure figcaption {
 
 /* ILLUSTRATOR PAGE */
 
+.illustrator-photo {
+  width: 400px;
+}
+
 #yellow-1 {
   width: 300px;
   animation-name: fade;
