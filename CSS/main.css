@@ -28,9 +28,9 @@ li {
   margin-left: 3rem;
 }
 
-a {
+/* a {
   color: black;
-}
+} */
 
 @media screen and (max-width: 616px) {
   header,
